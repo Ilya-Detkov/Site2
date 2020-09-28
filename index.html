@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Автомобили с пробегом</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script defer src="jquery-3.4.1.min/jquery-3.4.1.min.js"></script>
+    <script defer src="slick.min/slick.min.js"></script>
+	<script defer src="script/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-row">
+                <div class="logo">
+                    <a href="#"><img src="img/лого.svg" class="logo-text" alt="logo"></a>
+                    <a href="#"><img src="img/icon/logo-600.svg" class="logo-600" alt="logo"></a>
+                </div>
+                <div class="header-contacts">
+                        <div class="header-contacts__list-left">
+                            <div class="header-contacts__item">
+                                <p class="header-contacts__adres">г. Москва, Ленинградское ш., 63Б</p>
+                            </div>
+                            <div class="header-contacts__item">
+                                <p> Ежедневно: 8:00 - 22:00</p>
+                            </div>
+                        </div>
+                        <div class="header-contacts__list-right">
+                            <div class="header-contacts__item">
+                                <a href="tel:+70000000000" class="header-contacts__tell">8 (000) 000-00-00</a>
+                            </div> 
+                            <div class="header-contacts__item">
+                                <a class="header-contacts__phone link-hover btn-action1">Заказать звонок</a>
+                                <a class="header-contacts__phone-img btn-action1" href="#"><img src="../img/icon/header-phone.svg" alt=""></a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="main-section1 clearfix">
+                <div dir="rtl" class="slider">
+                    <div class="slider-item">
+                        <picture>
+                            <source type="image/webp" srcset="img/slider/rav4.webp">
+                            <source type="image/jpeg" srcset="img/slider/rav4.png">
+                            <img src="img/slider/rav4.png" alt="рав 4" class="slider__img">
+                        </picture>
+                    </div>
+                    <div class="slider-item">
+                        <picture>
+                            <source type="image/webp" srcset="img/slider/а8.webp">
+                            <source type="image/jpeg" srcset="img/slider/а8.png">
+                            <img src="img/slider/а8.png" alt="а8" class="slider__img">
+                        </picture>
+                    </div>
+                    <div class="slider-item">
+                        <picture>
+                            <source type="image/webp" srcset="img/slider/аутлендер.webp">
+                            <source type="image/jpeg" srcset="img/slider/аутлендер.png">
+                            <img src="img/slider/аутлендер.png" loading="lazy" alt="аутлендер" class="slider__img">
+                        </picture>
+                    </div>
+                    <div class="slider-item">
+                        <picture>
+                            <source type="image/webp" srcset="img/slider/пассат.webp">
+                            <source type="image/jpeg" srcset="img/slider/пассат.png">
+                            <img src="img/slider/пассат.png" loading="lazy" alt="пассат" class="slider__img">
+                        </picture>
+                    </div>
+                    <div class="slider-item">
+                        <picture>
+                            <source type="image/webp" srcset="img/slider/октавия.webp">
+                            <source type="image/jpeg" srcset="img/slider/октавия.png">
+                            <img src="img/slider/октавия.png" loading="lazy" alt="октавия" class="slider__img">
+                        </picture>
+                    </div>
+                    <div class="slider-item">
+                        <picture>
+                            <source type="image/webp" srcset="img/slider/хс90.webp">
+                            <source type="image/jpeg" srcset="img/slider/хс90.png">
+                            <img src="img/slider/хс90.png" loading="lazy" alt="хс90" class="slider__img">
+                        </picture>
+                    </div>
+                </div>
+            <div class="wrapper clearfix wrapper-section1">
+                <h1>Срочный выкуп автомобилей в Москве</h1>
+                <div class="main-section1__form">
+                    <form class="section1__form">
+                        <h2>Нужно продать авто?</h2>
+                        <label class="section1__form-input" >
+                            <input class="form__input-name input-style" type="text" name="Имя" placeholder="Ваше имя">
+                        </label>
+                        <label class="section1__form-input" >
+                            <input class="form__input-tel input-style" type="tel" name="Телефон" placeholder="+7">
+                        </label>
+                        <label class="section1__form-check">
+                            <input type="checkbox">
+                            <span>Согласие на обработку <a href="#">персональных данных</a></span>
+                        </label>
+                        <label class="section1__form-input">
+                            <input class="section1__form-button button-style button-hover" type="submit" value="ПРОДАТЬ МОЙ АВТОМОБИЛЬ">
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="main-section2">
+            <div class="wrapper">
+                <div class="main-section2__form">
+                    <form class="section1__form">
+                        <h2>Нужно продать авто?</h2>
+                        <label class="section1__form-input" >
+                            <input class="form__input-name input-style" type="text" name="Имя" placeholder="Ваше имя">
+                        </label>
+                        <label class="section1__form-input" >
+                            <input class="form__input-tel input-style" type="tel" name="Телефон" placeholder="+7">
+                        </label>
+                        <label class="section1__form-check">
+                            <input type="checkbox">
+                            <span>Согласие на обработку <a href="#">персональных данных</a></span>
+                        </label>
+                        <label class="section1__form-input section1__button">
+                            <input class="section1__form-button button-style button-hover" type="submit" value="ПРОДАТЬ МОЙ АВТОМОБИЛЬ">
+                        </label>
+                    </form>
+                </div>
+                <div class="main-section2__profit">
+                    <ul class="profit-row">
+                        <li>
+                            <img src="img/profit/Vector.svg" alt="">
+                            <p>Выгодная комиссионная продажа автомобилей</p>
+                        </li>
+                        <li>
+                            <img src="img/profit/Vector (1).svg" alt="">
+                            <p>Быстрое закрытие сделки</p>
+                        </li>
+                        <li>
+                            <img src="img/profit/Vector (2).svg" alt="">
+                            <p>Наличные или перевод на карту сразу после сделки</p>
+                        </li>
+                        <li>
+                            <img src="img/profit/Vector (3).svg" alt="">
+                            <p>Диагностика за наш счёт</p>
+                        </li>
+                        <li>
+                            <img src="img/profit/Rectangle 26 (Stroke).svg" alt="">
+                            <p>Вам не надо искать покупателей</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="main-section2__form2">
+                    <h2>Выкупаем выше рынка и выше перекупщиков</h2>
+                    <p>Отправьте заявку или позвоните <span class="row-item__span">8(800) 00-00-00</span> и мы предложим максимальную цену.</p>
+                    <form class="section2__form">
+                        <label class="section2-form__input form-input" >
+                            <input class="section2__form-name input-style" type="text" name="Имя" placeholder="Ваше имя">
+                        </label>
+                        <label class="section2-form__input form-input" >
+                            <input class="section2__form-tel input-style" type="tel" name="Телефон" placeholder="+7">
+                        </label>
+                        <label class="section2-form__input form-input">
+                            <input class="section2__form-button button-style button-hover" type="submit" value="ПРОДАТЬ АВТОМОБИЛЬ">
+                        </label>
+                        <label class="section2-form__check form-check">
+                            <input type="checkbox">
+                            <span>Согласие на обработку <a href="#">персональных данных</a></span>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="main-section3">
+            <div class="wrapper">
+                <h2>Гарантируем безопасную сделку</h2>
+                <p>Звоните <span class="row-item__span">8 (800) 00-00-00</span> или оставляйте заявку и получите бесплатное оформление документов от крупнейшего в России автодилера.</p>
+                <input class="btn-action2" type="button" value="ОСТАВИТЬ ЗАЯВКУ">
+            </div>
+            <div class="main-section3__hover">
+                <picture>
+                    <source type="image/webp" srcset="img/section3-hover.webp">
+                    <source type="image/jpeg" srcset="img/section3-hover.png">
+                    <img src="img/section3-hover.png" loading="lazy" alt="">
+                </picture>
+            </div>
+        </section>
+        <section class="main-section4">
+            <div class="wrapper">
+                <h2>Выкупим Ваш автомобиль</h2>
+                <div class="main-section4__row">
+                    <div class="row-item">
+                        <span>01</span>
+                        <p>Вы оставляете заявку у нас на сайте или звоните по телефону: <p class="row-item__span">8(800) 000-00-00</p></p>
+                    </div>
+                    <div class="row-item">
+                        <span>02</span>
+                        <p>Мы делаем предварительную оценку авто по телефону и озвучиваем цену.</p>
+                    </div>
+                    <div class="row-item">
+                        <span>03</span>
+                        <p>Наш эксперт-оценщик приезжает к Вам и производит окончательную оценку авто.</p>
+                    </div>
+                    <div class="row-item">
+                        <span>04</span>
+                        <p>Для Вас мы предоставляем наличный и безналичный вид расчета, Вы выбираете, получаете деньги и свой экземпляр договора.</p>
+                    </div>
+                </div>
+                <div class="main-section4__button">
+                    <input class="button-style button-hover btn-action3" type="button" value="Заказать оценку">
+                </div>
+                <div class="main-section4__offer">
+                    <div class="offer-img">
+                        <picture>
+                            <source type="image/webp" srcset="img/offer-img.webp">
+                            <source type="image/jpeg" srcset="img/offer-img.jpg">
+                            <img src="img/offer-img.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="offer-list">
+                        <h3>Мы предлагаем вам:</h3>
+                        <ul class="offer-list__items">
+                            <li class="offer-list__item">Бесплатное оформление всех документов</li>
+                            <li class="offer-list__item">Быстрая и безопасная продажа автомобиля</li>
+                            <li class="offer-list__item">Бесплатная выездная оценка</li>
+                            <li class="offer-list__item">Выкуп автопарков любых размеров</li>
+                            <li class="offer-list__item">Выкуп кредитных и лизинговых автомобилей</li>
+                        </ul>
+                        <div class="offer-list__conteiner-button">
+                            <input class="offer-list__button button-style button-hover btn-action4" type="button" value="Получить предложение">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="section5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2126.837084032386!2d40.91408031610732!3d57.78714284073743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ad45598f3bf98d%3A0x6d380225ab06b319!2z0YPQuy4g0KLQutCw0YfQtdC5LCA1LCDQmtC-0YHRgtGA0L7QvNCwLCDQmtC-0YHRgtGA0L7QvNGB0LrQsNGPINC-0LHQuy4sIDE1NjAwMw!5e0!3m2!1sru!2sru!4v1598455118409!5m2!1sru!2sru" width="1920" height="500" frameborder="0" loading="lazy" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="section5__contact">
+                <div class="contact-list">
+                    <div class="contact-list__tel">
+                        <a href="tel:+78000000000">8 (800) 000-00-00</a>
+                    </div>
+                    <div class="contact-list__item contact-item">
+                        <a href="">Факс: 8 (000) 000-00-00</a>
+                    </div>
+                    <div class="contact-list__call contact-item">
+                        <a href="#" class="link-hover btn-action1">Заказать звонок</a>
+                    </div>
+                    <div class="contact-list__adres">
+                        <a href="#">153166 Какой то адрес компании</a>
+                    </div>
+                    <div class="contact-list__item contact-item">
+                        <a href="#">Ежедневно: 08:00 - 22:00</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper footer-wrapper">
+            <div class="footer-row">
+                <a href="#" class="footer-stock footer-text">Подробные условия акции</a>
+                <span></span>
+                <p class="footer__copyright-text footer-text">© 2019 Все права защищены. Официальный дилер.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="popup-container1 popup">
+        <form class="popup1 section1__form">
+            <div class="popup-close__container">
+                <a class="popup-close" href="#">
+                    <img class="popup-close__cross" src="/img/icon/cross.svg" alt="Закрыть форму">
+                </a>
+            </div>
+            <h2>Заказать звонок</h2>
+            <label class="popup-item1 section1__form-input" >
+                <input class="form__input-name input-style" type="text" name="Имя" placeholder="Ваше имя">
+            </label>
+            <label class="popup-item2 section1__form-input" >
+                <input class="form__input-tel input-style" type="tel" name="Телефон" placeholder="+7">
+            </label>
+            <label class="popup-item3 section1__form-check">
+                <input type="checkbox">
+                <span>Согласие на обработку <a href="#">персональных данных</a></span>
+            </label>
+            <label class="popup-item4 section1__form-input">
+                <input class="section1__form-button button-style button-hover" type="submit" value="ОТПРАВИТЬ">
+            </label>
+        </form>
+    </div>
+    <div class="popup-container2 popup">
+        <form class="popup1 section1__form">
+            <div class="popup-close__container">
+                <a class="popup-close" href="#">
+                    <img class="popup-close__cross" src="/img/icon/cross.svg" alt="Закрыть форму">
+                </a>
+            </div>
+            <h2>Отправить заявку</h2>
+            <label class="popup-item1 section1__form-input" >
+                <input class="form__input-name input-style" type="text" name="Имя" placeholder="Ваше имя">
+            </label>
+            <label class="popup-item2 section1__form-input" >
+                <input class="form__input-tel input-style" type="tel" name="Телефон" placeholder="+7">
+            </label>
+            <label class="popup-item3 section1__form-check">
+                <input type="checkbox">
+                <span>Согласие на обработку <a href="#">персональных данных</a></span>
+            </label>
+            <label class="popup-item4 section1__form-input">
+                <input class="section1__form-button button-style button-hover" type="submit" value="ОТПРАВИТЬ">
+            </label>
+        </form>
+    </div>
+    <div class="popup-container3 popup">
+        <form class="popup1 section1__form">
+            <div class="popup-close__container">
+                <a class="popup-close" href="#">
+                    <img class="popup-close__cross" src="/img/icon/cross.svg" alt="Закрыть форму">
+                </a>
+            </div>
+            <h2>Заказать оценку</h2>
+            <label class="popup-item1 section1__form-input" >
+                <input class="form__input-name input-style" type="text" name="Имя" placeholder="Ваше имя">
+            </label>
+            <label class="popup-item2 section1__form-input" >
+                <input class="form__input-tel input-style" type="tel" name="Телефон" placeholder="+7">
+            </label>
+            <label class="popup-item3 section1__form-check">
+                <input type="checkbox">
+                <span>Согласие на обработку <a href="#">персональных данных</a></span>
+            </label>
+            <label class="popup-item4 section1__form-input">
+                <input class="section1__form-button button-style button-hover" type="submit" value="ОТПРАВИТЬ">
+            </label>
+        </form>
+    </div>
+    <div class="popup-container4 popup">
+        <form class="popup1 section1__form">
+            <div class="popup-close__container">
+                <a class="popup-close" href="#">
+                    <img class="popup-close__cross" src="/img/icon/cross.svg" alt="Закрыть форму">
+                </a>
+            </div>
+            <h2>Получить предложение</h2>
+            <label class="popup-item1 section1__form-input" >
+                <input class="form__input-name input-style" type="text" name="Имя" placeholder="Ваше имя">
+            </label>
+            <label class="popup-item2 section1__form-input" >
+                <input class="form__input-tel input-style" type="tel" name="Телефон" placeholder="+7">
+            </label>
+            <label class="popup-item3 section1__form-check">
+                <input type="checkbox">
+                <span>Согласие на обработку <a href="#">персональных данных</a></span>
+            </label>
+            <label class="popup-item4 section1__form-input">
+                <input class="section1__form-button button-style button-hover" type="submit" value="ОТПРАВИТЬ">
+            </label>
+        </form>
+    </div>
+</body>
+</html>
